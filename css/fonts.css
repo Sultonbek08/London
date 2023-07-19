@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Open Sans__400";
+    src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Open Sans__600";
+    src: url(../fonts/Open_Sans/OpenSans-SemiBold.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Open Sans__700";
+    src: url(../fonts/Open_Sans/OpenSans-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Inter__400";
+    src: url(../fonts/Inter/Inter-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Inter__600";
+    src: url(../fonts/Inter/Inter-SemiBold.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Roboto__400";
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Roboto__500";
+    src: url(../fonts/Roboto/Roboto-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Roboto__700";
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+    font-weight: 700;
+}
