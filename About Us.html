@@ -8,19 +8,28 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/all.min (4).css">
     <link rel="stylesheet" href="./media.css">
+    <link rel="stylesheet" href="./css/css/bootstrap.min.css">
 </head>
 
 <body>
     <header class="header__menu">
-        <nav class="header__nav">
+        <nav class="navbar navbar-expand-md navbar-dark  header__nav">
+
             <a href="./index.html"><img src="./img/image 2 (1).png" alt="img" class="nav__icon"></a>
-            <ul class="nav__ul">
-                <li class="nav__li"><a href="./menu.html" class="nav__title">Menu</a></li>
-                <li class="nav__li"><a href="./news.html" class="nav__title">News</a></li>
-                <li class="nav__li"><a href="./About Us.html" class="nav__title">About Us</a></li>
-                <li class="nav__li"><a href="./Contact Us.html" class="nav__title">Contact Us</a></li>
-                <li class="nav__li"><a href="#!" class="button">Log In</a></li>
-            </ul>
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#och">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="och">
+                <ul class="navbar-nav ms-auto nav__ul">
+                    <li class="nav__li nav-item"><a href="./menu.html" class="nav-link nav__title">Menu</a></li>
+                    <li class="nav__li nav-item"><a href="./news.html" class="nav-link nav__title">News</a></li>
+                    <li class="nav__li nav-item"><a href="./About Us.html" class="nav-link nav__title">About Us</a></li>
+                    <li class="nav__li nav-item"><a href="./Contact Us.html" class="nav-link nav__title">Contact</a></li>
+                    <li class="nav__li nav-item"><a href="#!" class="button">Log In</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
@@ -30,7 +39,7 @@
                 <div class="section4__wrapper">
                     <div class="wrapper__box section4__wrapper1">
                         <div class="section4__wrapper__title">
-                            <h3 class="wrapper__title  qwe">Contact Us</h3>
+                            <h3 class="wrapper__title  qwe">About Us</h3>
                             <svg class="section4__wrapper__icon" xmlns="http://www.w3.org/2000/svg" width="40"
                                 height="9" viewBox="0 0 40 9" fill="none">
                                 <path
@@ -44,15 +53,16 @@
                                 aliquet eu proin mauris et.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet
                                 eu proin mauris et.</p>
-                            <img src="./img/pexels-ron-lach-8879653 2 (1).png" alt="" class="About__Us__container__img">
-                            <p class="About__Us__container__text1">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            <div class="About__Us__container__img"><img src="./img/pexels-ron-lach-8879653 2 (1).png"
+                                    alt="" class="About__Us__container__img"></div>
+                            <p class="About__Us__container__text">Lorem ipsum dolor sit amet, consectetur adipiscing
                                 elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec
                                 aliquet eu proin mauris et.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet
-                                eu proin mauris et. It is a long established fact that a reader will be distracted by
+                                eu proin mauris et.? It is a long established fact that a reader will be distracted by
                                 the readable content of a page when looking at its layout. </p>
-                            <svg class="About__Us__container__icon" xmlns="http://www.w3.org/2000/svg" width="93" height="93" viewBox="0 0 93 93"
-                                fill="none">
+                            <svg class="About__Us__container__icon" xmlns="http://www.w3.org/2000/svg" width="93"
+                                height="93" viewBox="0 0 93 93" fill="none">
                                 <path
                                     d="M62.2841 40.4505C65.167 37.5398 65.8881 33.5321 63.8918 31.5166C61.8955 29.501 57.9262 30.2292 55.0433 33.1399C52.3165 35.8931 51.5251 39.6267 53.1368 41.7285L49.3739 45.5277L48.6123 44.7588L30.6287 62.9157L32.7923 65.1002L50.776 46.9431L50.0145 46.1743L53.7774 42.3751C55.8593 44.0025 59.5572 43.2036 62.2841 40.4505ZM49.4411 46.9976L32.8464 63.7523L31.964 62.8614L48.5587 46.1067L49.4411 46.9976ZM54.1298 41.3727C52.4869 39.7139 53.1842 36.3108 55.6841 33.7867C58.1841 31.2627 61.5547 30.5586 63.1977 32.2174C64.8407 33.8763 64.1435 37.2795 61.6435 39.8036C59.1436 42.3276 55.7729 43.0316 54.1298 41.3727Z"
                                     fill="#242424" />
@@ -177,6 +187,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="./css/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
